@@ -9,8 +9,8 @@ Because ReScript depends on Node.js for dependency management via npm
     (I personal use WSL based on Ubuntu)
 
 ```sh
-    • sudo apt update
-    • sudo apt install nodejs
+  • sudo apt update
+  • sudo apt install nodejs
 ```
 
 Check versions:
