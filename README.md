@@ -8,12 +8,12 @@ Be sure that installed npm
 Because ReScript depends on Node.js for dependency management via npm
     (I personal use WSL based on Ubuntu)
 
- ` •  sudo apt update`;
- ` •  sudo apt install nodejs`
+   • `sudo apt update`
+   • `sudo apt install nodejs`
 
 Check versions:
-  •  node -v  
-  •  npm -v   
+  •  `node -v  `
+  •  `npm -v   `
 
 
 ## Initializing a new ReScript project
