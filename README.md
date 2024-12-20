@@ -23,7 +23,7 @@ Check versions:
 ## Initializing a new ReScript project
 ### Create new project folder
 ```SH
-  •  mkdir "any project`s name"
+  •  mkdir "any project's name"
   •  cd "name"
 ```
 
