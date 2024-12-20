@@ -8,8 +8,8 @@ Be sure that installed npm
 Because ReScript depends on Node.js for dependency management via npm
     (I personal use WSL based on Ubuntu)
 
-  •  sudo apt update
-  •  sudo apt install nodejs
+ ` •  sudo apt update`
+ ` •  sudo apt install nodejs`
 
 Check versions:
   •  node -v  
@@ -38,7 +38,7 @@ It automatically populates the package.json file with default values.
 
 
 ## Setup 
-### Setup bsconfig.json with such contents
+### Setup bsconfig.json with such contents:
 
 {
   "name": "my-rescript-project",
@@ -72,7 +72,7 @@ Put code there:
     
 ### Compile project
 
-  •  npx rescript build
+  `•  npx rescript build`
 
     It`s creating src/Example.bs.js file that's contains JavaScript-code
 
@@ -81,7 +81,7 @@ Put code there:
   •  node src/Example.bs.js
 
 
-# I addition I`d like share with basic ReScript commands
+# In addition I`d like share with basic ReScript commands
 
 ### Compiling the project
 
