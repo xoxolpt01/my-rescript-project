@@ -6,7 +6,7 @@ function add(a, b) {
   return a + b | 0;
 }
 
-var result = 35;
+var result = 115;
 
 console.log(result);
 

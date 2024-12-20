@@ -1,7 +1,7 @@
 let add = (a, b) => a + b;
 
 // Использование
-let result = add(10, 25);
+let result = add(100, 15);
 Js.log(result); // Выводит 8
 
 

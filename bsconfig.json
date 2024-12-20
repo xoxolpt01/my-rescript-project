@@ -1,14 +1,15 @@
 {
-  "name": "rescript_testing",
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
+  "name": "my-rescript-project",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bsc-flags": ["-open RescriptCore"],
-  "bs-dependencies": ["@rescript/core"]
+  "bs-dependencies": []
 }
