@@ -104,7 +104,7 @@ Put code there:
 
 
 
-# Libriries installing 
+# Libraries installing 
 
 If you want to use third-party libraries in ReScript, install them via npm and add them to bs-dependencies in bsconfig.json.
 For example: 
