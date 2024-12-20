@@ -117,3 +117,5 @@ For example:
 ```
 Into:
     "bs-dependencies": ["@rescript/react"]
+
+### And now It`s ready to work ☺️
