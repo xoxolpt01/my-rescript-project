@@ -76,7 +76,7 @@ Put code there:
     
 ### Compile project
 ```sh
-  `•  npx rescript build`
+  •  npx rescript build
 ```
     It`s creating src/Example.bs.js file that's contains JavaScript-code
 
