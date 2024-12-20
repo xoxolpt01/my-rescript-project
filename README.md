@@ -16,7 +16,7 @@ Because ReScript depends on Node.js for dependency management via npm
 Check versions:
 ```SH
   •  node -v  
-  •  `npm -v
+  •  npm -v
 ```
 
 
