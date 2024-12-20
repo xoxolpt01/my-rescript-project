@@ -1,0 +1,13 @@
+rescript = 1
+rule astj
+  command = /home/alex/rescript/newp/my-rescript-project/node_modules/rescript/linux/bsc.exe  -bs-v 11.1.4 -uncurried  -absname -bs-ast -o $out $i
+o src/test.ast : astj ../../src/test.res
+rule deps
+  command = /home/alex/rescript/newp/my-rescript-project/node_modules/rescript/linux/bsb_helper.exe -hash fc8c7b42bf3dc1192c8822a6fb4df023 $in
+  restat = 1
+o src/test.d : deps src/test.ast
+rule mij
+  command = /home/alex/rescript/newp/my-rescript-project/node_modules/rescript/linux/bsc.exe -I src   -uncurried -bs-package-name my-rescript-project -bs-package-output commonjs:$in_d:.bs.js $i
+  dyndep = 1
+  restat = 1
+o src/test.cmj src/test.cmi ../../src/test.bs.js : mij src/test.ast
